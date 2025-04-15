@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "http://192.168.100.76:8000/api/v1";
+const baseURL = "http://137.184.193.47/api/v1";
 
 var headers = {
     "Content-Type": "application/json",
