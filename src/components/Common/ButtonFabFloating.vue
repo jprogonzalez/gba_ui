@@ -1,0 +1,15 @@
+<template>
+    <v-fab-transition>
+        <v-btn
+            color="primary--bg"
+            dark
+            absolute
+            bottom
+            right
+            fab
+            @click="$emit('add')"
+        >
+            <v-icon>mdi-plus</v-icon>
+        </v-btn>
+    </v-fab-transition>
+</template>
